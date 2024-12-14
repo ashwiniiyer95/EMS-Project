@@ -1,0 +1,17 @@
+#include <Arduino.h>
+
+//ONBOARD LED IS CONNECTED TO GPIO 2
+#define LED_BUILTIN 2
+
+void setup() {
+ 
+  pinMode(LED_BUILTIN, OUTPUT);  //SETTING GPIO 2 AS OUTPUT PIN
+}
+
+void loop() {
+  digitalWrite(LED_BUILTIN, HIGH); //TURN ON THE LED
+  delay(1000); // 1 SECOND WAIT
+  digitalWrite(LED_BUILTIN, LOW); // TURN OFF LED 
+  delay(1000); // 1 SECOND WAIT
+  
+}
