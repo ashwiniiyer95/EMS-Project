@@ -1,0 +1,12 @@
+DTH22 Connection
+
+1. place the sensor on the breadboard
+2. Place ESP32 on the breadboard
+3. Make sure a row is empty next to the ESP32 pins that are to be used
+4. Connect A red jumper wire from the 5th row of the '+' end of the DHT22 sensor to the positive end of the breadboard. it should be under the same row right under DHT22.
+5. Connect a 10K ohm resistor at the 5th row of the 'out' pin of the DHT22 resistor to the one of the positive end on the breadboard that comes right under the sensor row.
+6. Connect a black jumper wire from the 5th row of the '-' pin of the DHT22 sensor to the negative end of the breadboard that comes right under the sensor row.
+7. connect a blue jumper wire from the third row of the 'out' pin to the D4 pin of ESP32 on the breadboard
+8. connect a red jumper wire from the 3V3 pin on the ESP32 board to the positive end under the sensor row.
+9. connect a black jumper wire from the GND pin on the ESP32 board to the negative end of the breadboard under the sensor row.
+
